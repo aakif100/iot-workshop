@@ -1,0 +1,93 @@
+body{
+ background: url(./bg.jpg);
+    background-size: cover;
+  background-repeat: no-repeat;
+  
+
+
+ 
+}
+
+
+.titl{
+    text-align: center;
+    color:aliceblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /*box-shadow: 0 0 3px 3px blue;*/
+  
+    
+}
+h1{
+    
+    opacity: 80%;
+    font-size:35px;
+    border:2px double magenta ;
+    border-radius: 20px;
+    
+}
+
+.dept{
+    font-size:xx-large;
+}
+
+.dep{
+    margin-top: -18px;
+    font-size:xx-large;
+}
+.present{
+    text-align: center;
+    color: white;
+    font-family: cursive;
+}
+
+
+
+.btn-group button {
+    background-color: #6d0a60; /* Green background */
+    border: 1px solid rgb(123, 3, 117); /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+    
+ border-radius: 10px;
+ margin-left: 109px;
+ 
+ 
+ 
+}
+a:visited{
+    color:white;
+
+}
+a:active{
+    color:aquamarine
+}
+
+
+  
+  /* Clear floats (clearfix hack) */
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+    
+  }
+  
+  .btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+  }
+  
+  /* Add a background color on hover */
+  .btn-group button:hover {
+    background-color: #7b1974;
+  }
+  
+  .full{
+        max-width: 600px;
+        margin-left: auto;
+        margin-right:auto ;
+        min-width: 500px;
+
+
+  }
